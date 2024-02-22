@@ -1,5 +1,12 @@
+import Sidebar from "./components/Sidebar";
+import "./app.css";
+
 function App() {
-  return <div className="App">Welcome to the autosys assignment</div>;
+  return (
+    <div className="app">
+      <Sidebar />
+    </div>
+  );
 }
 
 export default App;
