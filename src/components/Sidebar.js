@@ -10,8 +10,8 @@ import "./sidebar.css";
 export default function Sidebar() {
   return (
     <div className="sidebar">
-      <h1>TechDen</h1>
-      <div>
+      <h1 className="header">TechDen</h1>
+      <div className="mainContainer">
         <div>
           <RxDashboard />
           <span>Dashboard</span>
