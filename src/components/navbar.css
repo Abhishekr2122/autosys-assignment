@@ -18,8 +18,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 4px;
   background-color: transparent;
   border-radius: 4px;
+  border: 1px solid blue;
+  padding: 4px;
+  width: 110px;
+  font-size: medium;
 }
 
 .navbar::-webkit-scrollbar {
@@ -28,68 +33,102 @@
 
 .html {
   color: orangered;
+  height: 22px;
+  width: 22px;
 }
 
 .css {
   color: rgb(40, 112, 229);
+  height: 22px;
+  width: 22px;
 }
 
 .javascript {
   color: yellow;
+  height: 22px;
+  width: 22px;
 }
 
 .typescript {
   color: cornflowerblue;
+  height: 22px;
+  width: 22px;
 }
 
 .react {
   color: skyblue;
+  height: 22px;
+  width: 22px;
 }
 
 .angular {
   color: red;
+  height: 22px;
+  width: 22px;
 }
 
 .vue {
   color: green;
+  height: 22px;
+  width: 22px;
 }
 
 .nextjs {
   color: black;
+  height: 22px;
+  width: 22px;
 }
 
 .nuxt {
   color: rgb(141, 255, 47);
+  height: 22px;
+  width: 22px;
 }
 
 .bootstrap {
   color: blueviolet;
+  height: 22px;
+  width: 22px;
 }
 
 .sass {
   color: pink;
+  height: 22px;
+  width: 22px;
 }
 
 .tailwind {
   color: rgb(92, 215, 253);
+  height: 22px;
+  width: 22px;
 }
 
 .nodejs {
   color: darkgreen;
+  height: 22px;
+  width: 22px;
 }
 
 .expressjs {
   color: dimgray;
+  height: 22px;
+  width: 22px;
 }
 
 .mongodb {
   color: lime;
+  height: 22px;
+  width: 22px;
 }
 
 .php {
   color: rgb(70, 54, 126);
+  height: 22px;
+  width: 22px;
 }
 
 .golang {
   color: cyan;
+  height: 22px;
+  width: 22px;
 }
