@@ -20,98 +20,98 @@ import { BiLogoGoLang } from "react-icons/bi";
 export default function Navbar() {
   return (
     <div className="navbar">
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <AiOutlineHtml5 />
           <span>html</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <TbBrandCss3 />
           <span>CSs</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <TbBrandJavascript />
           <span>Javascript</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <TbBrandTypescript />
           <span>Typescript</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <FaReact />
           <span>Reactjs</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <RiAngularjsLine />
           <span>Angular</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <FaVuejs />
           <span>Vuejs</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <TbBrandNextjs />
           <span>Nextjs</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <SiNuxtdotjs />
           <span>Nuxtjs</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <RiBootstrapLine />
           <span>Bootstrap</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <TbBrandTailwind />
           <span>Tailwindcss</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <TbBrandNodejs />
           <span>Nodejs</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <SiExpress />
           <span>Expressjs</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <BiLogoMongodb />
           <span>Mongodb</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <FaPhp />
           <span>php</span>
         </button>
       </div>
-      <div className="navItems">
-        <button>
+      <div>
+        <button className="navItems">
           <BiLogoGoLang />
           <span>GO</span>
         </button>
