@@ -1,16 +1,16 @@
 .navbar {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   gap: 22px;
   position: absolute;
   top: 10px;
-  height: 60px;
+  height: 55px;
   background-color: rgb(255, 255, 255);
-  padding: 6px;
-  border-radius: 15px;
-  left: 270px;
-  width: 500px;
+  padding: 10px;
+  border-radius: 25px;
+  left: 267px;
+  width: 80%;
   overflow: scroll;
 }
 
@@ -19,4 +19,77 @@
   align-items: center;
   justify-content: center;
   background-color: transparent;
+  border-radius: 4px;
+}
+
+.navbar::-webkit-scrollbar {
+  display: none;
+}
+
+.html {
+  color: orangered;
+}
+
+.css {
+  color: rgb(40, 112, 229);
+}
+
+.javascript {
+  color: yellow;
+}
+
+.typescript {
+  color: cornflowerblue;
+}
+
+.react {
+  color: skyblue;
+}
+
+.angular {
+  color: red;
+}
+
+.vue {
+  color: green;
+}
+
+.nextjs {
+  color: black;
+}
+
+.nuxt {
+  color: rgb(141, 255, 47);
+}
+
+.bootstrap {
+  color: blueviolet;
+}
+
+.sass {
+  color: pink;
+}
+
+.tailwind {
+  color: rgb(92, 215, 253);
+}
+
+.nodejs {
+  color: darkgreen;
+}
+
+.expressjs {
+  color: dimgray;
+}
+
+.mongodb {
+  color: lime;
+}
+
+.php {
+  color: rgb(70, 54, 126);
+}
+
+.golang {
+  color: cyan;
 }
