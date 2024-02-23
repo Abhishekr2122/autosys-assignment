@@ -14,6 +14,7 @@
   width: 100%;
   border-bottom: 1px dashed black;
   text-align: center;
+  color: blue;
 }
 
 .mainContainer {
@@ -41,4 +42,8 @@
 
 .spanItem {
   font-size: large;
+}
+
+.icons {
+  color: blue;
 }

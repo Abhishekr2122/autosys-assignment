@@ -13,27 +13,27 @@ export default function Sidebar() {
       <h1 className="header">WebtechDen</h1>
       <div className="mainContainer">
         <div className="subContainer">
-          <RxDashboard />
+          <RxDashboard className="icons" />
           <span className="spanItem">Dashboard</span>
         </div>
         <div className="subContainer">
-          <CgDetailsMore />
+          <CgDetailsMore className="icons" />
           <span className="spanItem">Details</span>
         </div>
         <div className="subContainer">
-          <MdOutlineSummarize />
+          <MdOutlineSummarize className="icons" />
           <span className="spanItem">Overview</span>
         </div>
         <div className="subContainer">
-          <HiOutlineChartSquareBar />
+          <HiOutlineChartSquareBar className="icons" />
           <span className="spanItem">Charts</span>
         </div>
         <div className="subContainer">
-          <GoStack />
+          <GoStack className="icons" />
           <span className="spanItem">Techstack</span>
         </div>
         <div className="subContainer">
-          <IoIosGitCompare />
+          <IoIosGitCompare className="icons" />
           <span className="spanItem">Compare</span>
         </div>
       </div>
