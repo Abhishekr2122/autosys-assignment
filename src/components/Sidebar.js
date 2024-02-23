@@ -10,7 +10,7 @@ import "./sidebar.css";
 export default function Sidebar() {
   return (
     <div className="sidebar">
-      <h1 className="header">TechDen</h1>
+      <h1 className="header">WebtechDen</h1>
       <div className="mainContainer">
         <div className="subContainer">
           <RxDashboard />
