@@ -24,7 +24,7 @@
   border: 1px solid blue;
   padding: 4px;
   width: 110px;
-  font-size: medium;
+  font-size: 15px;
 }
 
 .navbar::-webkit-scrollbar {
