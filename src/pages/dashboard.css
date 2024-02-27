@@ -6,3 +6,24 @@
   width: 79%;
   height: 85%;
 }
+
+.cards {
+  display: column;
+  align-items: center;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  border: 2px solid red;
+  height: 50%;
+  gap: 15px;
+  padding: 4px;
+}
+
+.cards::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  width: 100%;
+  border: 1px solid yellow;
+  font-size: 15px;
+}
