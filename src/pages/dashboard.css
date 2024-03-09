@@ -8,14 +8,17 @@
 }
 
 .cards {
-  display: column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 1rem;
   overflow: scroll;
   scroll-behavior: smooth;
-  border: 2px solid red;
+  border: 1px dashed blue;
   height: 50%;
-  gap: 15px;
-  padding: 4px;
+  /* margin-top: 10px; */
+  border-radius: 2px;
+  padding: 15px;
 }
 
 .cards::-webkit-scrollbar {
@@ -23,8 +26,11 @@
 }
 
 .card {
-  width: 100%;
-  border: 1px solid yellow;
+  width: 98%;
+  /* border: 1px solid yellow; */
   font-size: 15px;
   padding: 10px;
+  background-color: ghostwhite;
+  border-radius: 4px;
+  /* background-color: white; */
 }
