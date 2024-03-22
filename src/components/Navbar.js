@@ -17,16 +17,18 @@ import { BiLogoMongodb } from "react-icons/bi";
 import { FaPhp } from "react-icons/fa";
 import { BiLogoGoLang } from "react-icons/bi";
 import { FaSass } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <div className="navbar">
       <div>
-        <button className="navItems">
-          <AiOutlineHtml5 className="html" />
-
-          <span>Html</span>
-        </button>
+        <NavLink to="/html" style={{ textDecoration: "none" }}>
+          <button className="navItems">
+            <AiOutlineHtml5 className="html" />
+            <span>Html</span>
+          </button>
+        </NavLink>
       </div>
       <div>
         <button className="navItems">
